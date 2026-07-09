@@ -1,0 +1,47 @@
+.navcontainer{
+    background-color: #FFFF;
+   display:flex;
+   justify-content: space-between;
+   padding: 10px 50px 10px;
+
+
+}
+.navcontainer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navcontainer ul li a{
+    text-decoration: none;}
+.main{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hero-section .banner{
+    position: relative;
+}
+.hero-section .banner .hero-text{
+    position:absolute;
+    bottom: 70%;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    font-size: 20px;
+}
+
+.hero-section .banner .hero-text p{
+    font-size: 10px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+
+.hero-section .banner img{
+    width: 100%;
+    height: auto;
+
+
+
+}
