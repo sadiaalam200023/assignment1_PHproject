@@ -6,6 +6,11 @@
 
 
 }
+.navcontainer img{
+  width:auto;
+  height: auto;
+   padding:20px;
+}
 .navcontainer ul{
     list-style: none;
     display: flex;
@@ -18,6 +23,17 @@
     
     margin-left: 50px;
     margin-right: 50px;
+}
+.button1 { background-color: #3B82F6;
+text-align: center;
+font-size: 15px;
+color: white;
+border-radius: 12px;
+border: none;
+padding: 12px 28px;
+cursor: pointer;
+margin:10px 50px 
+
 }
 .hero-section .banner{
     position: relative;
