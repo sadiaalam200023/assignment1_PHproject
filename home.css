@@ -3,8 +3,6 @@
    display:flex;
    justify-content: space-between;
    padding: 10px 50px 10px;
-
-
 }
 .navcontainer img{
   width:auto;
@@ -20,8 +18,7 @@
 .navcontainer ul li a{
     text-decoration: none;}
 .main{
-    
-    margin-left: 50px;
+margin-left: 50px;
     margin-right: 50px;
 }
 .button1 { background-color: #3B82F6;
@@ -55,9 +52,51 @@ margin:10px 50px
 
 
 .hero-section .banner img{
+    width: 100%; height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0a2757;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 50px 10px;
+}
+
+footer .footerlogo img{
+    width: 80px; height: 40px; 
+}
+
+footer .upper{
+    display: flex !important ;
+    justify-content: space-between;
+    align-items: center;    
+}
+footer .upper .icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+}
+footer .upper .icons img{
+    width: 20px; height: 20px;
+}
+hr{
+    border-top: 0.5px solid white;
     width: 100%;
-    height: auto;
-
-
-
+    
+}
+footer .lower p{
+    color: white;
+    font-size: 10px;
+    text-align: center;
 }
