@@ -250,13 +250,13 @@ align-items: center;
 .hero-section h1 {
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .hero-section p{
     text-align: center;
     color: white;
-   font-size: 20px;
+   font-size: 10px;
    padding-left: 100px;
    padding-right: 100px;
    
