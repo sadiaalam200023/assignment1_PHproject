@@ -163,9 +163,14 @@ align-items: center;
    padding:4px;
    
 }
+.Pricing .pricelist li{
+    margin-bottom: 5px;
+}
+
+
+
 .Pricing .pricelist .pro, .Pricing .pricelist .standard, .Pricing .pricelist .Team {
     padding: 15px;
-    align-items: start;
     border-radius: 12px;
     border-color: white;
     align-items: flex-start;
